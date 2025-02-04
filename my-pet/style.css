@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+.pet-idle {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background: url('pet-idle.png') no-repeat center;
+    background-size: contain;
+    transition: transform 0.3s;
+}
+
+.pet-idle:hover {
+    transform: scale(1.1);
+}
+
+.stats p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}

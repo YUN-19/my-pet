@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>虚拟宠物养成</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>我的虚拟宠物</h1>
+        <div id="pet" class="pet-idle"></div>
+        <div class="stats">
+            <p>饥饿值: <span id="hunger">100</span></p>
+            <p>心情值: <span id="mood">100</span></p>
+            <p>健康值: <span id="health">100</span></p>
+        </div>
+        <div class="actions">
+            <button onclick="feed()">喂食</button>
+            <button onclick="clean()">清洁</button>
+            <button onclick="play()">玩耍</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
